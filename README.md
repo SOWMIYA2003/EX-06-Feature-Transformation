@@ -150,7 +150,6 @@ df5["yf_HighNegative"].plot(kind = 'hist')
 
 ### Applying Log Transformation Method to the given DataFrame:
 ![op](./a2.png)
-![op](./a3.png)
 
 ### Column - Moderate Positive Skew
 
@@ -182,7 +181,6 @@ df5["yf_HighNegative"].plot(kind = 'hist')
 
 ### Applying Square-Root Transformation Method to the given DataFrame:
 ![op](./z1.png)
-![op](./z2.png)
 
 ### Column - Moderate Positive Skew
 
@@ -215,32 +213,85 @@ df5["yf_HighNegative"].plot(kind = 'hist')
 
 ### Applying Reciprocal Transformation Method to the given DataFrame:
 ![op](./s1.png)
-![op](./s2.png)
 
 ### Column - Moderate Positive Skew
 
 ### Original:
 ![op](./a4.png)
-### Reciprocal Transformed:
+### Inverse Transformed:
 ![op](./s3.png)
 
 ### Column - Highly Positive Skew
 
 ### Original:
 ![op](./a6.png)
-### Reciprocal Transformed:
+### Inverse Transformed:
 ![op](./s4.png)
 
 ### Column - Moderate Negative Skew
 
 ### Original:
 ![op](./a8.png)
-### Reciprocal Transformed:
+### Inverse Transformed:
 ![op](./s5.png)
 
 ### Column - Highly Negative Skew
 
 ### Original:
 ![op](./a10.png)
-### Reciprocal Transformed:
+### Inverse Transformed:
 ![op](./s6.png)
+
+### Applying Box-Cox Transformation Method to the given DataFrame:
+```
+Box-cox requires the input data to be STRICTLY POSITIVE (not even zero is acceptable).
+```
+![op](./h1.png)
+### Column - Moderate Positive Skew
+
+### Original:
+![op](./a4.png)
+### Box-Cox Transformed:
+![op](./h2.png)
+
+### Column - Highly Positive Skew
+
+### Original:
+![op](./a6.png)
+### Box-Cox Transformed:
+![op](./h3.png)
+
+### Applying Yeo-Johnson Transformation Method to the given DataFrame:
+![op](./b1.png)
+### Column - Moderate Positive Skew
+
+### Original:
+![op](./a4.png)
+### Y-J Transformed:
+![op](./b5.png)
+
+### Column - Highly Positive Skew
+
+### Original:
+![op](./a6.png)
+### Y-J Transformed:
+![op](./b4.png)
+
+### Column - Moderate Negative Skew
+
+### Original:
+![op](./a8.png)
+### Y-J Transformed:
+![op](./b2.png)
+
+### Column - Highly Negative Skew
+
+### Original:
+![op](./a10.png)
+### Y-J Transformed:
+![op](./b3.png)
+
+## Result
+ Various feature transformation techniques are performed on a given dataset for the better fit of normality successfully.
+
+
