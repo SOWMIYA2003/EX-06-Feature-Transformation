@@ -246,7 +246,7 @@ df5["yf_HighNegative"].plot(kind = 'hist')
 ```
 Box-cox requires the input data to be STRICTLY POSITIVE (not even zero is acceptable).
 ```
-![op](./h1.png)
+![op](./box.png)
 ### Column - Moderate Positive Skew
 
 ### Original:
