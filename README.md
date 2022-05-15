@@ -538,6 +538,62 @@ df7["yf_Fare"].plot(kind = 'hist')
 ![op](./l/l20.png)
 
 
+### Applying Square-Root Transformation Method to the given DataFrame:
+![op](./y/yi.png)
+![op](./y/y2.png)
+### Column - PassengerId:
+### Original:
+![op](./l/l3.png)
+### Square-Root Transformed:
+![op](./y/y3.png)
+
+### Column - Survived:
+### Original:
+![op](./l/l5.png)
+### Square-Root Transformed:
+![op](./y/y4.png)
+
+### Column - Pclass:
+### Original:
+![op](./l/l7.png)
+### Square-Root Transformed:
+![op](./y/y5.png)
+
+### Column - Sex:
+### Original:
+![op](./l/l9.png)
+### Square-Root Transformed:
+![op](./y/y6.png)
+
+### Column - Age:
+### Original:
+![op](./l/l11.png)
+### Square-Root Transformed:
+![op](./y/y7.png)
+
+### Column - SibSp:
+### Original:
+![op](./l/l13.png)
+### Square-Root Transformed:
+![op](./y/y8.png)
+
+### Column - Parch:
+### Original:
+![op](./l/l15.png)
+### Square-Root Transformed:
+![op](./y/y9.png)
+
+### Column - Fare:
+### Original:
+![op](./l/l17.png)
+### Square-Root Transformed:
+![op](./y/y10.png)
+
+### Column - Embarked:
+### Original:
+![op](./l/l19.png)
+### Square-Root Transformed:
+![op](./y/y11.png)
 ## Result
  Various feature transformation techniques are performed on a given dataset for the better fit of normality successfully.
 
