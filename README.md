@@ -470,6 +470,73 @@ df7["yf_SibSp"].plot(kind = 'hist')
 df7["yf_Parch"].plot(kind = 'hist')
 df7["yf_Fare"].plot(kind = 'hist')
 ```
+# OUPUT
+
+### Initial DataFrame:
+![op](./m1.png)
+### Droping Name,Cabin,Ticket columns from DataFrame:
+![op](./m2.png)
+### Non Null-data Count:
+![op](./m3.png)
+### Sum of null data present in each column:
+![op](./m4.png)
+### Handling Null data in Column "Age" and "Embarked" :
+![op](./m5.png)
+### Data Frame after removing column - Name,Cabin,Ticket:
+![op](./m6.png)
+### Applying Ordinal Encoding Method in column - Embarked:
+![op](./m7.png)
+### Applying Binary Encoding Method in column - Sex:
+![op](./m8.png)
+### Applying Log Transformation Method to the given DataFrame:
+![op](./l/l1.png)
+![op](./l/l2.png)
+### Column - PassengerId:
+### Original:
+![op](./l/l3.png)
+### Log Transformed:
+![op](./l/l4.png)
+### Column - Survived:
+### Original:
+![op](./l/l5.png)
+### Log Transformed:
+![op](./l/l6.png)
+### Column - Pclass:
+### Original:
+![op](./l/l7.png)
+### Log Transformed:
+![op](./l/l8.png)
+### Column - Sex:
+### Original:
+![op](./l/l9.png)
+### Log Transformed:
+![op](./l/l10.png)
+### Column - Age:
+### Original:
+![op](./l/l11.png)
+### Log Transformed:
+![op](./l/l12.png)
+### Column - SibSp:
+### Original:
+![op](./l/l13.png)
+### Log Transformed:
+![op](./l/l14.png)
+### Column - Parch:
+### Original:
+![op](./l/l15.png)
+### Log Transformed:
+![op](./l/l16.png)
+### Column - Fare:
+### Original:
+![op](./l/l17.png)
+### Log Transformed:
+![op](./l/l18.png)
+### Column - Embarked:
+### Original:
+![op](./l/l19.png)
+### Log Transformed:
+![op](./l/l20.png)
+
 
 ## Result
  Various feature transformation techniques are performed on a given dataset for the better fit of normality successfully.
