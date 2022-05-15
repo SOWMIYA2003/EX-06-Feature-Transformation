@@ -595,28 +595,47 @@ df7["yf_Fare"].plot(kind = 'hist')
 ### Square-Root Transformed:
 ![op](./y/y11.png)
 
-### Applying Box-Cox Transformation Method to the given DataFrame:
-```
-Box-cox requires the input data to be STRICTLY POSITIVE (not even zero is acceptable).
-```
+### Applying Reciprocal Transformation Method to the given DataFrame:
 ![op](./r/r1.png)
 ![op](./r/r2.png)
 ### Column - PassengerId:
 ### Original:
 ![op](./l/l3.png)
-### Box-Cox Transformed:
+### Inverse Transformed:
 ![op](./r/r3.png)
 ### Column - Pclass:
 ### Original:
 ![op](./l/l7.png)
-### Box-Cox Transformed:
+### Inverse Transformed: 
 ![op](./r/r4.png)
 ### Column - Age:
 ### Original:
 ![op](./l/l11.png)
-### Box-Cox Transformed:
+### Inverse Transformed: 
 ![op](./r/r5.png)
 
+### Applying Box-Cox Transformation Method to the given DataFrame:
+```
+Box-cox requires the input data to be STRICTLY POSITIVE (not even zero is acceptable).
+```
+![op](./m/n1.png)
+### Column - PassengerId:
+### Original:
+![op](./l/l3.png)
+### Box-Cox Transformed:
+![op](./m/n2.png)
+### Column - Pclass:
+### Original:
+![op](./l/l7.png)
+### Box-Cox Transformed:
+![op](./m/n3.png)
+### Column - Age:
+### Original:
+![op](./l/l11.png)
+### Box-Cox Transformed:
+![op](./m/n4.png)
+
+### Applying Yeo-Johnson Transformation Method to the given DataFrame:
 
 ## Result
  Various feature transformation techniques are performed on a given dataset for the better fit of normality successfully.
