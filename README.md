@@ -295,6 +295,16 @@ Box-cox requires the input data to be STRICTLY POSITIVE (not even zero is accept
 ### Y-J Transformed:
 ![op](./b3.png)
 
+### Applying Quantile Transformation Method to the dataset:
+### Column - Moderate Positive Skew
+![op](./t/t1.png)
+### Column - Highly Positive Skew
+![op](./t/t2.png)
+### Column - Moderate Negative Skew
+![op](./t/t3.png)
+### Column - Highly Negative Skew
+![op](./t/t4.png)
+
 # DataSet 2- titanic.csv
 # CODE
 ```
