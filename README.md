@@ -473,21 +473,21 @@ df7["yf_Fare"].plot(kind = 'hist')
 # OUPUT
 
 ### Initial DataFrame:
-![op](./m1.png)
+![op](./m/m1.png)
 ### Droping Name,Cabin,Ticket columns from DataFrame:
-![op](./m2.png)
+![op](./m/m2.png)
 ### Non Null-data Count:
-![op](./m3.png)
+![op](./m/m3.png)
 ### Sum of null data present in each column:
-![op](./m4.png)
+![op](./m/m4.png)
 ### Handling Null data in Column "Age" and "Embarked" :
-![op](./m5.png)
+![op](./m/m5.png)
 ### Data Frame after removing column - Name,Cabin,Ticket:
-![op](./m6.png)
+![op](./m/m6.png)
 ### Applying Ordinal Encoding Method in column - Embarked:
-![op](./m7.png)
+![op](./m/m7.png)
 ### Applying Binary Encoding Method in column - Sex:
-![op](./m8.png)
+![op](./m/m8.png)
 ### Applying Log Transformation Method to the given DataFrame:
 ![op](./l/l1.png)
 ![op](./l/l2.png)
@@ -594,6 +594,30 @@ df7["yf_Fare"].plot(kind = 'hist')
 ![op](./l/l19.png)
 ### Square-Root Transformed:
 ![op](./y/y11.png)
+
+### Applying Box-Cox Transformation Method to the given DataFrame:
+```
+Box-cox requires the input data to be STRICTLY POSITIVE (not even zero is acceptable).
+```
+![op](./r/r1.png)
+![op](./r/r2.png)
+### Column - PassengerId:
+### Original:
+![op](./l/l3.png)
+### Box-Cox Transformed:
+![op](./r/r3.png)
+### Column - Pclass:
+### Original:
+![op](./l/l7.png)
+### Box-Cox Transformed:
+![op](./r/r4.png)
+### Column - Age:
+### Original:
+![op](./l/l11.png)
+### Box-Cox Transformed:
+![op](./r/r5.png)
+
+
 ## Result
  Various feature transformation techniques are performed on a given dataset for the better fit of normality successfully.
 
