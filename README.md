@@ -636,7 +636,43 @@ Box-cox requires the input data to be STRICTLY POSITIVE (not even zero is accept
 ![op](./m/n4.png)
 
 ### Applying Yeo-Johnson Transformation Method to the given DataFrame:
-
+![op](./g/g1.png)
+![op](./g/g2.png)
+### Column - PassengerId:
+### Original:
+![op](./l/l3.png)
+### Y-J Transformed:
+![op](./g/g3.png)
+### Column - Survived:
+### Original:
+![op](./l/l5.png)
+### Y-J Transformed:
+![op](./g/g4.png)
+### Column - Pclass:
+### Original:
+![op](./l/l7.png)
+### Y-J Transformed:
+![op](./g/g5.png)
+### Column - Age:
+### Original:
+![op](./l/l11.png)
+### Y-J Transformed:
+![op](./g/g6.png)
+### Column - SibSp:
+### Original:
+![op](./l/l13.png)
+### Y-J Transformed:
+![op](./g/g7.png)
+### Column - Parch:
+### Original:
+![op](./l/l15.png)
+### Y-J Transformed:
+![op](./g/g8.png)
+### Column - Fare:
+### Original:
+![op](./l/l17.png)
+### Y-J Transformed:
+![op](./g/g9.png)
 ## Result
  Various feature transformation techniques are performed on a given dataset for the better fit of normality successfully.
 
