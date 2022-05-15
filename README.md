@@ -39,7 +39,11 @@ Box-cox requires the input data to be strictly positive(not even zero is accepta
 
 Yeo-Johnson is best suited for features that have zeroes or negative values
 YEO-JOHNSON TRANSFORMATION:  It is a variation of the Box-Cox transform.
+ 
+### Quantile Transformation
 
+Many machine learning algorithms prefer or perform better when numerical variables have a Gaussian or standard probability distribution.
+Quantile transforms are a technique for transforming numerical input or output variables to have a Gaussian or uniform probability distribution.
 # DataSet 1- Data_To_Transfer.csv
 # CODE
 ```
@@ -673,6 +677,28 @@ Box-cox requires the input data to be STRICTLY POSITIVE (not even zero is accept
 ![op](./l/l17.png)
 ### Y-J Transformed:
 ![op](./g/g9.png)
+
+### Applying Quantile Transformation Method to the dataset:
+### Column - PassengerId:
+![op](./q/q1.png)
+### Column -    Survived:
+![op](./q/q2.png)
+### Column - Pclass:
+![op](./q/q3.png)
+### Column - Age:
+![op](./q/q4.png)
+### Column - Sex:
+![op](./q/q5.png)
+### Column - SibSp:
+![op](./q/q6.png)
+### Column - Fare:
+![op](./q/q7.png)
+### Column - Embarked:
+![op](./q/q8.png)
+### Column - Parch:
+![op](./q/q9.png)
+
+
 ## Result
  Various feature transformation techniques are performed on a given dataset for the better fit of normality successfully.
 
